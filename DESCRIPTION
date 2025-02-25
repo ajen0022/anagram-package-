@@ -1,0 +1,24 @@
+Package: anagram
+Title: Comprehensive Anagram Detection and Analysis
+Version: 0.0.0.9000
+Authors@R: 
+    person("Amrita", "Jena", , "ajen0022@student.monash.edu", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: The "anagram" package offers a versatile set of tools for anagram detection, analysis, and visualization. Users can explore words from a dictionary that contain a specific subset of letters, with enriched output including frequency information for detailed analysis and visualization. The package also enables the determination of whether a set of words are anagrams of each other and facilitates the identification of anagrams within subsets of words. These functionalities empower users to delve into linguistic patterns, word relationships, and frequency distributions with ease and precision.
+License: GPL (>= 3)
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
+URL: https://github.com/Advanced-R-Programming/assignment-3-package-completion-ajen0022
+BugReports: https://github.com/Advanced-R-Programming/assignment-3-package-completion-ajen0022/issues
+Suggests: 
+    knitr,
+    rmarkdown,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Depends: 
+    R (>= 2.10)
+LazyData: true
+Imports: 
+    ggplot2
+VignetteBuilder: knitr
